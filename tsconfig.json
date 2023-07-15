@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",                        // Spécifie la version ECMAScript cible
+      "module": "commonjs",                   // Spécifie le système de modules (par exemple, "commonjs" pour Node.js)
+      "outDir": "",                     // Spécifie le répertoire de sortie des fichiers compilés
+      "strict": true,                         // Active la vérification stricte des types
+      "esModuleInterop": true,                 // Active l'interopérabilité entre les modules CommonJS et ES
+      "forceConsistentCasingInFileNames": true // Garantit une casse cohérente pour les noms de fichiers
+    },
+    "include": [
+        "script.ts"
+    ]                                  // Spécifie les répertoires à inclure dans la compilation
+}

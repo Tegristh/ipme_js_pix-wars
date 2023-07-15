@@ -49,7 +49,7 @@ game.addEventListener('click', function(event){
     addPixel()
 })
 
-function drawGrids(ctx, width, height, cellWidth, cellHeight){
+function drawGrids(ctx:CanvasRenderingContext2D, width: number, height: number, cellWidth: number, cellHeight: number){
     ctx.beginPath()
     ctx.strokeStyle = "#CCC"
 
